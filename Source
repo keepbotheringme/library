@@ -2095,7 +2095,7 @@ function HM.new(self)
 					return skidding;
 				end;
 -------------- NOTIFICATION --------------
-    function dick:Notify(skidding)
+    function HM:Notify(skidding)
     skidding = skidding or {}
     skidding.Title = skidding.Title or "Notification"
     skidding.Content = skidding.Content or ""
