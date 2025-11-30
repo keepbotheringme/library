@@ -1826,7 +1826,7 @@
 
 		function library:watermark(options) 
 			local cfg = {
-				default = options.text or options.default or os.date('drain.lol | %b %d %Y | %H:%M')
+				default = options.text or options.default or os.date('skidded.win | %b %d %Y | %H:%M')
 			}
 
 			local watermark_outline = library:create("Frame", {
@@ -1879,7 +1879,7 @@
 				FontFace = library.font,
 				TextColor3 = themes.preset.text,
 				BorderColor3 = rgb(0, 0, 0),
-				Text = "  drain.lol | Beta | Aug 29 2024 | 07:29:00  ",
+				Text = "  skidded.win | Beta | Nov 30 2025 | 10:59:59  ",
 				Size = dim2(0, 0, 1, 0),
 				BackgroundTransparency = 1,
 				Position = dim2(0, -1, 0, 1),
@@ -4360,7 +4360,6 @@
 				end
 
 
-				-- ok bro its 30 april2025.. what is this code from october 2024 💀💀
 				hold_button.MouseButton1Click:Connect(function()
 					cfg.set_mode("hold") 
 					cfg.set_visible(false)
