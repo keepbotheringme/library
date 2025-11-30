@@ -2241,7 +2241,7 @@
 						FontFace = library.font;
 						TextColor3 = flags["Distance_Color"].Color;
 						BorderColor3 = rgb(0, 0, 0);
-						Text = "127st";
+						Text = "67st";
 						Parent = library.cache;
 						TextStrokeTransparency = 0;
 						Name = "\0";
